@@ -1,0 +1,41 @@
+Configuring ansi-terminal-0.7.1.1...
+Preprocessing library for ansi-terminal-0.7.1.1..
+Building library for ansi-terminal-0.7.1.1..
+[1 of 9] Compiling System.Console.ANSI.Types ( System\Console\ANSI\Types.hs, .stack-work\dist\5c8418a7\build\System\Console\ANSI\Types.o )
+[2 of 9] Compiling System.Console.ANSI.Codes ( System\Console\ANSI\Codes.hs, .stack-work\dist\5c8418a7\build\System\Console\ANSI\Codes.o )
+[3 of 9] Compiling System.Console.ANSI.Unix ( System\Console\ANSI\Unix.hs, .stack-work\dist\5c8418a7\build\System\Console\ANSI\Unix.o )
+[4 of 9] Compiling System.Console.ANSI.Windows.Emulator.Codes ( System\Console\ANSI\Windows\Emulator\Codes.hs, .stack-work\dist\5c8418a7\build\System\Console\ANSI\Windows\Emulator\Codes.o )
+[5 of 9] Compiling System.Console.ANSI.Windows.Foreign ( System\Console\ANSI\Windows\Foreign.hs, .stack-work\dist\5c8418a7\build\System\Console\ANSI\Windows\Foreign.o )
+
+System\Console\ANSI\Windows\Foreign.hs:245:21: warning: [-Woverflowed-literals]
+    Literal -10 is out of the GHC.Word.Word32 range 0..4294967295
+    |
+245 | sTD_INPUT_HANDLE = -10
+    |                     ^^
+
+System\Console\ANSI\Windows\Foreign.hs:246:22: warning: [-Woverflowed-literals]
+    Literal -11 is out of the GHC.Word.Word32 range 0..4294967295
+    |
+246 | sTD_OUTPUT_HANDLE = -11
+    |                      ^^
+
+System\Console\ANSI\Windows\Foreign.hs:247:21: warning: [-Woverflowed-literals]
+    Literal -12 is out of the GHC.Word.Word32 range 0..4294967295
+    |
+247 | sTD_ERROR_HANDLE = -12
+    |                     ^^
+[6 of 9] Compiling System.Console.ANSI.Windows.Detect ( System\Console\ANSI\Windows\Detect.hs, .stack-work\dist\5c8418a7\build\System\Console\ANSI\Windows\Detect.o )
+[7 of 9] Compiling System.Console.ANSI.Windows.Emulator ( System\Console\ANSI\Windows\Emulator.hs, .stack-work\dist\5c8418a7\build\System\Console\ANSI\Windows\Emulator.o )
+
+System\Console\ANSI\Windows\Emulator.hs:114:9: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type `DWORD'
+    Suppress this warning by saying
+      `_ <- fillConsoleOutputCharacter
+              handle clearChar fill_length fill_cursor_pos'
+    |
+114 |         fillConsoleOutputCharacter handle clearChar fill_length fill_cursor_pos
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[8 of 9] Compiling System.Console.ANSI.Windows ( System\Console\ANSI\Windows.hs, .stack-work\dist\5c8418a7\build\System\Console\ANSI\Windows.o )
+[9 of 9] Compiling System.Console.ANSI ( System\Console\ANSI.hs, .stack-work\dist\5c8418a7\build\System\Console\ANSI.o )
+Installing library in C:\sr\snapshots\8f29239e\lib\x86_64-windows-ghc-8.2.2\ansi-terminal-0.7.1.1-7jooQD7Q4Ah9JvyDmE1jcZ
+Registering library for ansi-terminal-0.7.1.1..

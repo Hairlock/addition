@@ -1,0 +1,13 @@
+Configuring hspec-discover-2.4.4...
+Preprocessing library for hspec-discover-2.4.4..
+Building library for hspec-discover-2.4.4..
+[1 of 3] Compiling Paths_hspec_discover ( .stack-work\dist\5c8418a7\build\autogen\Paths_hspec_discover.hs, .stack-work\dist\5c8418a7\build\Paths_hspec_discover.o )
+[2 of 3] Compiling Test.Hspec.Discover.Config ( src\Test\Hspec\Discover\Config.hs, .stack-work\dist\5c8418a7\build\Test\Hspec\Discover\Config.o )
+[3 of 3] Compiling Test.Hspec.Discover.Run ( src\Test\Hspec\Discover\Run.hs, .stack-work\dist\5c8418a7\build\Test\Hspec\Discover\Run.o )
+Preprocessing executable 'hspec-discover' for hspec-discover-2.4.4..
+Building executable 'hspec-discover' for hspec-discover-2.4.4..
+[1 of 1] Compiling Main             ( driver\hspec-discover.hs, .stack-work\dist\5c8418a7\build\hspec-discover\hspec-discover-tmp\Main.o )
+Linking .stack-work\dist\5c8418a7\build\hspec-discover\hspec-discover.exe ...
+Installing library in C:\sr\snapshots\8f29239e\lib\x86_64-windows-ghc-8.2.2\hspec-discover-2.4.4-7lu7rN66esZ31cqN0Q1d1c
+Installing executable hspec-discover in C:\sr\snapshots\8f29239e\bin
+Registering library for hspec-discover-2.4.4..
